@@ -1,10 +1,10 @@
 <!doctype html>
 <html lang="he" dir="rtl"><head>
-
 <meta charset="UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
 <meta name="color-scheme" content="light only">
-<title>לוח הבקרה · Youleap סיטונאי</title>
+<title>שיווק ומבצעים · Youleap</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 
@@ -538,125 +538,47 @@ body { letter-spacing: 0px; }
 .cust { border-radius: var(--r-lg); padding: 18px; }
 .dtable td { padding: 13px 6px; }
 .dtable th { padding: 8px 6px 13px; }
-.home-head { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; }
-.home-avatar { width: 40px; height: 40px; border-radius: 50%; background: var(--peach); display: flex; align-items: center; justify-content: center; font-family: var(--font-display); font-weight: 700; font-size: 15px; color: var(--ink); flex-shrink: 0; }
-.home-greet-text { font-family: var(--font-display); font-weight: 700; font-size: 18px; color: var(--ink); line-height: 1.1; }
-.home-greet-sub { font-size: 12px; color: var(--ink-mute); margin-top: 3px; }
-.home-greet-sub strong { color: var(--coral-deep); font-weight: 600; }
-.home-date { margin-right: auto; font-size: 12.5px; color: var(--ink-mute); text-align: left; line-height: 1.5; }
-.home-date strong { display: block; color: var(--ink); font-weight: 600; font-size: 13px; }
-.target-band { background: var(--card); border: 1px solid var(--line); border-radius: var(--r-xl); padding: 14px 22px; display: grid; grid-template-columns: auto 1fr; gap: 24px; align-items: center; margin-bottom: 12px; }
-.target-gauge { display: flex; flex-direction: column; align-items: center; justify-content: center; flex-shrink: 0; min-width: 92px; }
-.target-gauge-pct { font-family: var(--font-display); font-weight: 800; font-size: 46px; color: var(--ink); letter-spacing: -2px; line-height: 1; }
-.target-gauge-cap { font-size: 11px; color: var(--ink-mute); margin-top: 4px; letter-spacing: 0.3px; }
-.target-body-l { font-size: 11.5px; color: var(--ink-mute); letter-spacing: 0.4px; margin-bottom: 6px; }
-.target-numbers { font-family: var(--font-display); font-size: 24px; font-weight: 800; color: var(--ink); line-height: 1; letter-spacing: -0.5px; margin-bottom: 10px; }
-.target-numbers .total { color: var(--ink-mute); font-size: 17px; font-weight: 600; }
-.target-bar { height: 8px; background: var(--line-soft); border-radius: 999px; overflow: hidden; max-width: 460px; }
-.target-bar-fill { height: 100%; background: linear-gradient(90deg, var(--coral) 0%, var(--coral-deep) 100%); border-radius: 999px; transition: width 0.5s; }
-.target-meta { display: flex; gap: 18px; font-size: 11.5px; color: var(--ink-mute); margin-top: 8px; }
-.target-meta strong { color: var(--ink); font-weight: 600; }
-.target-pct-inline { color: var(--coral-deep); font-weight: 700; }
-.search-band { margin-bottom: 12px; }
-.top-row { display: grid; grid-template-columns: 1.55fr 1fr; gap: 14px; align-items: stretch; margin-bottom: 12px; }
-.top-row .target-band { margin-bottom: 0px; }
-.search-card { background: var(--card); border: 1px solid var(--line); border-radius: var(--r-xl); padding: 14px 16px; display: flex; flex-direction: column; gap: 9px; justify-content: center; }
-.search-card-h { font-size: 12px; color: var(--ink-mute); letter-spacing: 0.4px; font-weight: 600; }
-.search-card .search-input-wrap input { padding: 10px 42px 10px 14px; font-size: 13px; }
-.search-card .filter-pill { font-size: 11.5px; padding: 5px 11px; }
-.search-card .filter-summary { font-size: 11px; color: var(--ink-mute); }
-@media (max-width: 1100px) {
-  .top-row { grid-template-columns: 1fr; }
-}
-.search-input-wrap { position: relative; margin-bottom: 10px; }
-.search-input-wrap svg { position: absolute; right: 16px; top: 50%; transform: translateY(-50%); width: 17px; height: 17px; stroke: var(--ink-mute); fill: none; stroke-width: 1.7; }
-.search-input-wrap input { width: 100%; background: var(--card); border: 1px solid var(--line); border-radius: var(--r-lg); padding: 11px 46px 11px 16px; font-family: inherit; font-size: 14px; color: var(--ink); outline: none; transition: border-color 0.12s, box-shadow 0.12s; }
-.search-input-wrap input:focus { border-color: var(--ink); box-shadow: rgba(24, 24, 27, 0.08) 0px 0px 0px 3px; }
-.search-input-wrap input::placeholder { color: var(--ink-mute); }
-.search-results { position: absolute; z-index: 60; top: calc(100% + 6px); right: 0px; width: 100%; background: var(--card); border: 1px solid var(--line); border-radius: var(--r-lg); box-shadow: var(--shadow-3); max-height: 340px; overflow-y: auto; padding: 5px; display: none; }
-.search-results.open { display: block; }
-.search-res-item { display: grid; grid-template-columns: auto 1fr auto; gap: 10px; align-items: center; padding: 9px 11px; border-radius: var(--r-sm); cursor: pointer; text-decoration: none; }
-.search-res-item:hover, .search-res-item.sel { background: var(--bg-soft); }
-.search-res-mark { width: 28px; height: 28px; border-radius: var(--r-sm); background: var(--coral-soft); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
-.search-res-mark.risk { background: rgba(220, 38, 38, 0.08); }
-.search-res-mark.ok { background: var(--sage-soft); }
-.search-res-mark svg { width: 14px; height: 14px; stroke: var(--ink-soft); fill: none; stroke-width: 1.7; }
-.search-res-mark.risk svg { stroke: var(--signal); }
-.search-res-mark.ok svg { stroke: var(--sage-deep); }
-.search-res-name { font-size: 13px; font-weight: 600; color: var(--ink); line-height: 1.25; }
-.search-res-name mark { background: var(--coral-soft); color: var(--coral-deep); padding: 0px 1px; border-radius: 3px; }
-.search-res-sub { font-size: 11px; color: var(--ink-mute); margin-top: 2px; }
-.search-res-tag { font-size: 11px; color: var(--ink-mute); white-space: nowrap; font-family: var(--font-mono); }
-.search-res-tag.risk { color: var(--signal); font-family: var(--font-display); font-weight: 600; }
-.search-res-tag.ok { color: var(--sage-deep); font-family: var(--font-display); font-weight: 600; }
-.search-res-empty { padding: 16px 12px; text-align: center; font-size: 12.5px; color: var(--ink-mute); }
-.topbar-search { position: relative; }
-.topbar-search .search-results { top: calc(100% + 8px); }
-.topbar-bell-wrap { position: relative; }
-.notif-panel { position: absolute; top: calc(100% + 8px); left: 0px; width: 320px; max-height: 380px; overflow-y: auto; background: var(--card); border: 1px solid var(--line); border-radius: var(--r-lg); box-shadow: var(--shadow-3); z-index: 60; }
-.notif-panel[hidden] { display: none; }
-.notif-head { padding: 12px 16px; font-family: var(--font-display); font-weight: 700; font-size: 13px; color: var(--ink); border-bottom: 1px solid var(--line-soft); position: sticky; top: 0px; background: var(--card); }
-.notif-item { display: flex; gap: 10px; padding: 11px 16px; border-bottom: 1px solid var(--line-soft); text-decoration: none; color: inherit; transition: background 0.1s; }
-.notif-item:last-child { border-bottom-width: medium; border-bottom-style: none; border-bottom-color: currentcolor; }
-.notif-item:hover { background: var(--bg); }
-.notif-dot { width: 8px; height: 8px; border-radius: 50%; margin-top: 5px; flex-shrink: 0; background: var(--ink-soft); }
-.notif-dot.risk { background: var(--signal); }
-.notif-dot.ai { background: var(--coral); }
-.notif-dot.stock { background: var(--sage-deep); }
-.notif-title { font-size: 12.5px; font-weight: 600; color: var(--ink); line-height: 1.3; display: block; }
-.notif-sub { font-size: 11px; color: var(--ink-mute); margin-top: 2px; display: block; }
-.kpi-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; margin-bottom: 12px; }
-.kpi-tile { background: var(--card); border: 1px solid var(--line); border-radius: var(--r-lg); padding: 12px 12px 11px; position: relative; }
-.kpi-tile-icon { position: absolute; top: 11px; left: 11px; width: 24px; height: 24px; background: var(--coral-soft); border-radius: var(--r-sm); display: flex; align-items: center; justify-content: center; }
-.kpi-tile-icon.sage { background: var(--sage-soft); }
-.kpi-tile-icon.peach { background: var(--bg-soft); }
-.kpi-tile-icon.signal { background: rgba(220, 38, 38, 0.08); }
-.kpi-tile-icon svg { width: 13px; height: 13px; stroke: var(--coral-deep); fill: none; stroke-width: 1.7; }
-.kpi-tile-icon.sage svg { stroke: var(--sage-deep); }
-.kpi-tile-icon.peach svg { stroke: var(--ink-soft); }
-.kpi-tile-icon.signal svg { stroke: var(--signal); }
-.kpi-tile-l { font-size: 11px; color: var(--ink-mute); margin-bottom: 5px; line-height: 1.2; padding-left: 28px; }
-.kpi-tile-v { font-family: var(--font-display); font-weight: 700; font-size: 19px; color: var(--ink); line-height: 1.05; letter-spacing: -0.02em; }
-.kpi-tile-d { font-size: 10.5px; color: var(--ink-mute); margin-top: 5px; }
-.act-list { display: flex; flex-direction: column; }
-.act-item { display: grid; grid-template-columns: auto 1fr auto; gap: 12px; align-items: center; padding: 9px 0px; border-bottom: 1px solid var(--line-soft); }
-.act-item:last-child { border-bottom-width: medium; border-bottom-style: none; border-bottom-color: currentcolor; padding-bottom: 0px; }
-.act-dot { width: 30px; height: 30px; border-radius: var(--r-sm); background: var(--bg-soft); border: 1px solid var(--line); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
-.act-dot svg { width: 15px; height: 15px; stroke: var(--ink-soft); fill: none; stroke-width: 1.7; }
-.act-dot.coral { background: var(--coral-soft); border-color: transparent; }
-.act-dot.coral svg { stroke: var(--coral-deep); }
-.act-dot.sage { background: var(--sage-soft); border-color: transparent; }
-.act-dot.sage svg { stroke: var(--sage-deep); }
-.act-name { font-size: 13px; font-weight: 600; color: var(--ink); line-height: 1.3; }
-.act-sub { font-size: 11.5px; color: var(--ink-mute); margin-top: 2px; }
-.act-time { font-size: 11px; color: var(--ink-mute); font-family: var(--font-mono); white-space: nowrap; }
-.meet-tbl { width: 100%; border-collapse: collapse; font-size: 13px; }
-.meet-tbl th { text-align: right; padding: 8px 8px 9px; font-size: 11px; color: var(--ink-mute); font-weight: 500; border-bottom: 1px solid var(--line); text-transform: uppercase; letter-spacing: 0.3px; white-space: nowrap; }
-.meet-tbl th:last-child { text-align: center; }
-.meet-tbl td { padding: 9px 8px; border-bottom: 1px solid var(--line-soft); color: var(--ink); vertical-align: middle; }
-.meet-tbl tr:last-child td { border-bottom-width: medium; border-bottom-style: none; border-bottom-color: currentcolor; }
-.meet-tbl tbody tr { transition: background 0.1s; }
-.meet-tbl tbody tr:hover { background: var(--bg); }
-.meet-time { font-family: var(--font-mono); font-weight: 600; font-size: 12.5px; color: var(--ink); }
-.meet-cn { font-weight: 600; }
-.meet-ci { font-size: 11px; color: var(--ink-mute); margin-top: 2px; }
-.meet-num { font-family: var(--font-display); font-weight: 600; }
-.score-chip { display: inline-flex; align-items: center; justify-content: center; min-width: 34px; padding: 3px 8px; border-radius: var(--r-sm); font-family: var(--font-display); font-weight: 600; font-size: 12px; background: var(--bg-soft); color: var(--ink-soft); }
-.score-chip.hi { background: var(--sage-soft); color: var(--sage-deep); }
-.score-chip.lo { background: rgba(220, 38, 38, 0.08); color: var(--signal); }
-@media (max-width: 1100px) {
-  .kpi-grid { grid-template-columns: repeat(3, 1fr); }
-  .target-band { grid-template-columns: 1fr; gap: 18px; justify-items: center; text-align: center; }
-  .target-bar { margin: 0px auto; }
-}
-@media (max-width: 700px) {
-  .kpi-grid { grid-template-columns: repeat(2, 1fr); }
-  .home-date { display: none; }
-}
-@media (max-width: 600px) {
-  .meet-tbl { font-size: 12px; }
-  .meet-tbl th:nth-child(3), .meet-tbl td:nth-child(3), .meet-tbl th:nth-child(5), .meet-tbl td:nth-child(5) { display: none; }
-}
+.mkt-hero { background: linear-gradient(135deg, var(--coral) 0%, var(--coral-deep) 100%); color: white; border-radius: var(--r-xl); padding: 32px; margin-bottom: 28px; box-shadow: rgba(17, 24, 39, 0.18) 0px 12px 28px; position: relative; overflow: hidden; }
+.mkt-hero::before { content: ""; position: absolute; inset: 0px; background: radial-gradient(circle at 88% -20%, rgba(255, 255, 255, 0.3), transparent 55%); }
+.mkt-hero-eyebrow { display: inline-flex; align-items: center; gap: 6px; background: rgba(255, 255, 255, 0.22); border: 1px solid rgba(255, 255, 255, 0.3); padding: 5px 12px; border-radius: 999px; font-size: 11px; font-weight: 600; letter-spacing: 0.4px; margin-bottom: 14px; }
+.mkt-hero h2 { font-family: var(--font-display); font-size: 30px; font-weight: 800; margin-bottom: 10px; line-height: 1.2; letter-spacing: -0.5px; }
+.mkt-hero p { font-size: 14.5px; opacity: 0.95; max-width: 580px; line-height: 1.55; }
+.mkt-hero-cta { display: inline-block; margin-top: 18px; background: white; color: var(--coral-deep); padding: 11px 22px; border-radius: var(--r-sm); text-decoration: none; font-weight: 700; font-size: 13px; }
+.mkt-hero-cta:hover { transform: translateY(-1px); box-shadow: rgba(0, 0, 0, 0.15) 0px 6px 14px; }
+.section-h-mkt { font-family: var(--font-display); font-size: 16px; font-weight: 700; color: var(--ink); margin: 28px 4px 14px; display: flex; align-items: center; gap: 10px; }
+.section-h-mkt::before { content: ""; width: 16px; height: 2px; background: var(--coral); border-radius: 1px; }
+.promo-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+.mkt-promo { background: var(--card); border-radius: var(--r-xl); border: 1px solid var(--line); padding: 22px; display: flex; flex-direction: column; gap: 10px; transition: 0.2s; box-shadow: var(--shadow-1); }
+.mkt-promo:hover { transform: translateY(-2px); box-shadow: var(--shadow-3); }
+.mkt-badge { display: inline-flex; align-items: center; gap: 5px; font-size: 11px; font-weight: 700; padding: 4px 10px; border-radius: 999px; background: var(--sage-soft); color: var(--sage-deep); width: fit-content; letter-spacing: 0.3px; }
+.mkt-badge::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: currentcolor; }
+.mkt-promo.coral .mkt-badge { background: var(--coral-soft); color: var(--coral-deep); }
+.mkt-promo.peach .mkt-badge { background: var(--peach); color: var(--ink); }
+.mkt-promo.sand .mkt-badge { background: var(--bg-soft); color: var(--ink-soft); }
+.mkt-promo-title { font-family: var(--font-display); font-size: 17px; font-weight: 700; color: var(--ink); line-height: 1.3; }
+.mkt-promo-body { font-size: 13px; color: var(--ink-soft); line-height: 1.55; flex: 1 1 0%; }
+.mkt-promo-meta { display: flex; justify-content: space-between; align-items: center; padding-top: 12px; border-top: 1px dashed var(--line); font-size: 12px; }
+.mkt-promo-expires { color: var(--ink-mute); }
+.mkt-promo-expires strong { color: var(--ink); font-family: var(--font-mono); }
+.mkt-promo-discount { font-family: var(--font-display); font-weight: 800; font-size: 16px; color: var(--sage-deep); }
+.mkt-promo.coral .mkt-promo-discount { color: var(--coral-deep); }
+.mkt-promo.peach .mkt-promo-discount { color: var(--ink); }
+.mkt-promo.sand .mkt-promo-discount { color: var(--ink); }
+.inserts-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px; }
+.insert-card { background: var(--card); border-radius: var(--r-md); border: 1px solid var(--line); padding: 16px 18px; display: flex; align-items: center; gap: 14px; transition: 0.2s; }
+.insert-card:hover { border-color: var(--peach); }
+.insert-icon { width: 44px; height: 44px; border-radius: var(--r-sm); background: var(--coral-soft); color: var(--coral-deep); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.insert-icon svg { width: 18px; height: 18px; stroke: currentcolor; fill: none; stroke-width: 1.7; }
+.insert-info { flex: 1 1 0%; min-width: 0px; }
+.insert-title { font-family: var(--font-display); font-size: 14px; font-weight: 700; color: var(--ink); margin-bottom: 3px; }
+.insert-meta { font-size: 11.5px; color: var(--ink-mute); }
+.insert-actions { display: flex; gap: 6px; flex-shrink: 0; }
+.insert-btn { display: inline-flex; align-items: center; justify-content: center; gap: 5px; padding: 8px 13px; border-radius: var(--r-sm); font-size: 11.5px; font-weight: 600; text-decoration: none; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; cursor: pointer; font-family: inherit; white-space: nowrap; }
+.insert-btn-download { background: var(--bg-soft); color: var(--ink); border: 1px solid var(--line); }
+.insert-btn-download:hover { background: var(--peach); border-color: var(--peach); }
+.insert-btn-whatsapp { background: rgb(37, 211, 102); color: white; }
+.insert-btn-whatsapp:hover { background: rgb(30, 190, 93); }
+.insert-btn-whatsapp svg { width: 14px; height: 14px; flex-shrink: 0; fill: currentcolor; }
 .ac-wrap { position: relative; flex-shrink: 0; }
 .ac-trigger { display: flex; align-items: center; gap: 10px; background: var(--card); border: 1px solid var(--line); border-radius: var(--r-lg); padding: 7px 12px; cursor: pointer; font-family: inherit; min-width: 230px; max-width: 340px; text-align: right; }
 .ac-trigger:hover { border-color: var(--ink); }
@@ -709,7 +631,7 @@ body { letter-spacing: 0px; }
   .ac-trigger { min-width: 0px; }
   .ac-cap, .ac-fin { display: none; }
   .ac-panel { position: fixed; top: 50%; left: 16px; right: 16px; transform: translateY(-50%); width: auto; max-width: none; max-height: 78vh; box-shadow: rgba(17, 24, 39, 0.28) 0px 16px 50px; }
-}</style><style>@font-face{font-family:Inter;font-weight:400;src:url(inter-latin-400-normal.woff2);unicode-range:U+0000-00FF,U+2000-206F,U+20AC,U+2122}@font-face{font-family:Inter;font-weight:500;src:url(inter-latin-500-normal.woff2);unicode-range:U+0000-00FF,U+2000-206F,U+20AC,U+2122}@font-face{font-family:Inter;font-weight:600;src:url(inter-latin-600-normal.woff2);unicode-range:U+0000-00FF,U+2000-206F,U+20AC,U+2122}@font-face{font-family:Inter;font-weight:700;src:url(inter-latin-700-normal.woff2);unicode-range:U+0000-00FF,U+2000-206F,U+20AC,U+2122}@font-face{font-family:Inter;font-weight:800;src:url(inter-latin-800-normal.woff2);unicode-range:U+0000-00FF,U+2000-206F,U+20AC,U+2122}@font-face{font-family:Inter;font-weight:400;src:url(../heebo-hebrew-400-normal.woff2);unicode-range:U+0590-05FF,U+20AA}@font-face{font-family:Inter;font-weight:500;src:url(../heebo-hebrew-500-normal.woff2);unicode-range:U+0590-05FF,U+20AA}@font-face{font-family:Inter;font-weight:600;src:url(../heebo-hebrew-700-normal.woff2);unicode-range:U+0590-05FF,U+20AA}@font-face{font-family:Inter;font-weight:700;src:url(../heebo-hebrew-700-normal.woff2);unicode-range:U+0590-05FF,U+20AA}@font-face{font-family:Inter;font-weight:800;src:url(../heebo-hebrew-800-normal.woff2);unicode-range:U+0590-05FF,U+20AA}</style></head>
+}</style><style>@font-face{font-family:Inter;font-weight:400;src:url(fonts/inter-latin-400-normal.woff2);unicode-range:U+0000-00FF,U+2000-206F,U+20AC,U+2122}@font-face{font-family:Inter;font-weight:500;src:url(fonts/inter-latin-500-normal.woff2);unicode-range:U+0000-00FF,U+2000-206F,U+20AC,U+2122}@font-face{font-family:Inter;font-weight:600;src:url(fonts/inter-latin-600-normal.woff2);unicode-range:U+0000-00FF,U+2000-206F,U+20AC,U+2122}@font-face{font-family:Inter;font-weight:700;src:url(fonts/inter-latin-700-normal.woff2);unicode-range:U+0000-00FF,U+2000-206F,U+20AC,U+2122}@font-face{font-family:Inter;font-weight:800;src:url(fonts/inter-latin-800-normal.woff2);unicode-range:U+0000-00FF,U+2000-206F,U+20AC,U+2122}@font-face{font-family:Inter;font-weight:400;src:url(../assets/fonts/heebo-hebrew-400-normal.woff2);unicode-range:U+0590-05FF,U+20AA}@font-face{font-family:Inter;font-weight:500;src:url(../assets/fonts/heebo-hebrew-500-normal.woff2);unicode-range:U+0590-05FF,U+20AA}@font-face{font-family:Inter;font-weight:600;src:url(../assets/fonts/heebo-hebrew-700-normal.woff2);unicode-range:U+0590-05FF,U+20AA}@font-face{font-family:Inter;font-weight:700;src:url(../assets/fonts/heebo-hebrew-700-normal.woff2);unicode-range:U+0590-05FF,U+20AA}@font-face{font-family:Inter;font-weight:800;src:url(../assets/fonts/heebo-hebrew-800-normal.woff2);unicode-range:U+0590-05FF,U+20AA}</style></head>
 <body>
 
 <div class="shell">
@@ -722,19 +644,20 @@ body { letter-spacing: 0px; }
         <div class="side-section-h ai-section-h">AI · בלעדי לנו</div>
         <a class="side-item ai-item" href="ai-assistant.html"><svg><use href="assets/icons.svg#i-bot"></use></svg>עוזר AI<span class="badge">3</span></a>
         <a class="side-item ai-item" href="products-insights.html"><svg><use href="assets/icons.svg#i-spark"></use></svg>תובנות מוצרים</a>
+        
 
         <div class="side-section-h">כלי הסוכן</div>
-        <a class="side-item active" href="index.html"><svg><use href="assets/icons.svg#i-grid"></use></svg>לוח הבקרה</a>
         <a class="side-item" href="dashboard.html"><svg><use href="assets/icons.svg#i-user"></use></svg>לקוח 360</a>
         <a class="side-item" href="my-customers.html"><svg><use href="assets/icons.svg#i-list"></use></svg>הלקוחות שלי</a>
         <a class="side-item" href="my-performance.html"><svg><use href="assets/icons.svg#i-chart"></use></svg>הביצועים שלי</a>
         <a class="side-item" href="catalog.html"><svg><use href="assets/icons.svg#i-grid"></use></svg>קטלוג מוצרים</a>
         <a class="side-item" href="cart.html"><svg><use href="assets/icons.svg#i-cart"></use></svg>עגלה</a>
         <a class="side-item" href="orders.html"><svg><use href="assets/icons.svg#i-package"></use></svg>הזמנות</a>
-        <a class="side-item" href="marketing.html"><svg><use href="assets/icons.svg#i-megaphone"></use></svg>שיווק</a>
+        <a class="side-item active" href="marketing.html"><svg><use href="assets/icons.svg#i-megaphone"></use></svg>שיווק</a>
+        <a class="side-item" href="index.html"><svg><use href="assets/icons.svg#i-grid"></use></svg>דף ראשי</a>
 
         <div class="side-foot">
-            <a class="side-action" href="catalog.html" style="text-decoration:none">פעולה חדשה</a>
+            <button class="side-action">פעולה חדשה</button>
             <button class="side-cog"><svg><use href="assets/icons.svg#i-cog"></use></svg></button>
         </div>
     </aside>
@@ -744,158 +667,108 @@ body { letter-spacing: 0px; }
         <div class="topbar">
             <div class="topbar-search">
                 <svg><use href="assets/icons.svg#i-search"></use></svg>
-                <input type="text" placeholder="חיפוש לקוח, מוצר, נציג..." id="topSearch" autocomplete="off" value="">
-                <div class="search-results" id="topSearchResults" role="listbox"></div>
+                <input type="text" placeholder="חיפוש מבצע, מוצר..." value="">
             </div><div class="ac-wrap"><button class="ac-trigger" type="button" id="acTrigger" aria-haspopup="listbox" aria-expanded="false">  <span class="ac-av" id="acAv">צכ</span>  <span class="ac-lbl"><span class="ac-cap">עובד מול הלקוח</span>    <span class="ac-name" id="acName">צבעים כלנית</span>    <span class="ac-fin" id="acFin">חוב פתוח ₪31K · <span class="cf-i-ok">אין פיגור</span></span></span>  <svg class="ac-chev" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div class="ac-panel" id="acPanel" role="listbox">  <input class="ac-search" id="acSearch" type="text" placeholder="חפש לקוח לפי שם, קוד או טלפון…" autocomplete="off" value="">  <div id="acList"></div></div></div>
-            <div class="topbar-bell-wrap">
-                <button class="topbar-bell" id="bellBtn" data-count="10" aria-label="התראות"><svg><use href="assets/icons.svg#i-bell"></use></svg></button>
-                <div class="notif-panel" id="notifPanel" hidden="">
-                    <div class="notif-head">התראות</div>
-                    <div class="notif-list" id="notifList"><a class="notif-item" href="dashboard.html?id=C2"><span class="notif-dot risk"></span><span><span class="notif-title">חשמל ותאורה התמר — לקוח בסיכון</span><span class="notif-sub">ירידה בפעילות · דורש תשומת לב</span></span></a><a class="notif-item" href="dashboard.html?id=C7"><span class="notif-dot risk"></span><span><span class="notif-title">איטום ובידוד השקד — לקוח בסיכון</span><span class="notif-sub">ירידה בפעילות · דורש תשומת לב</span></span></a><a class="notif-item" href="dashboard.html?id=C24"><span class="notif-dot risk"></span><span><span class="notif-title">אלומיניום הדקל — לקוח בסיכון</span><span class="notif-sub">ירידה בפעילות · דורש תשומת לב</span></span></a><a class="notif-item" href="dashboard.html?id=C25"><span class="notif-dot risk"></span><span><span class="notif-title">גבס ותקרות ערבה — לקוח בסיכון</span><span class="notif-sub">ירידה בפעילות · דורש תשומת לב</span></span></a><a class="notif-item" href="my-customers.html"><span class="notif-dot ai"></span><span><span class="notif-title">ציוד מגן התמר: הקטנת אשראי</span><span class="notif-sub">ירידה בציון D&amp;B</span></span></a><a class="notif-item" href="my-customers.html"><span class="notif-dot ai"></span><span><span class="notif-title">אינסטלציה התמר: הקטנת אשראי</span><span class="notif-sub">ירידה בציון D&amp;B</span></span></a><a class="notif-item" href="my-customers.html"><span class="notif-dot ai"></span><span><span class="notif-title">איטום ובידוד השקד: הקטנת אשראי</span><span class="notif-sub">ירידה בציון D&amp;B</span></span></a><a class="notif-item" href="catalog.html"><span class="notif-dot stock"></span><span><span class="notif-title">מלאי · HW-001: רכש מיידי</span><span class="notif-sub">מלאי נמוך</span></span></a><a class="notif-item" href="catalog.html"><span class="notif-dot stock"></span><span><span class="notif-title">מלאי · ACR-001: רכש מיידי</span><span class="notif-sub">מלאי נמוך</span></span></a><a class="notif-item" href="catalog.html"><span class="notif-dot stock"></span><span><span class="notif-title">מלאי · SAF-001: רכש מיידי</span><span class="notif-sub">מלאי נמוך</span></span></a></div>
-                </div>
-            </div>
-            <div class="topbar-title">לוח הבקרה</div>
+            <div class="topbar-bell" data-count="3"><svg><use href="assets/icons.svg#i-bell"></use></svg></div>
+            <div class="topbar-title">שיווק ומבצעים</div>
         </div>
 
-        <!-- Greeting -->
-        <div class="home-head">
-            <div class="home-avatar">דני</div>
-            <div>
-                <div class="home-greet-text">שלום דני</div>
-                <div class="home-greet-sub" id="greetSub">צהריים טובים · <strong>10 לקוחות בסיכון</strong> · 5 פגישות היום · 88% מהיעד</div>
-            </div>
-            <div class="home-date">
-                <strong id="dateMain">יום שלישי</strong>
-                <span id="dateSub">29 בספטמבר 2026</span>
-            </div>
+        <div class="mkt-hero">
+            <div class="mkt-hero-eyebrow">מבצע השבוע</div>
+            <h2>מבצעים בלעדיים לבעלי חנות וסוכנים</h2>
+            <p>תמריצי כמות, תנאי אשראי מורחבים והשקת קווי מוצר חדשים — בלעדי ללקוחות סיטונאיים פעילים. תוקף עד סוף החודש.</p>
+            <a href="#promos" class="mkt-hero-cta">לכל המבצעים ←</a>
         </div>
 
-        <!-- Top row: monthly target (right) + compact search card (left) -->
-        <div class="top-row">
-            <div class="target-band">
-                <div class="target-gauge" id="targetGauge" style="--pct: 88;">
-                    <div style="text-align:center">
-                        <div class="target-gauge-pct" id="gaugePct">88%</div>
-                        <div class="target-gauge-cap">מהיעד</div>
-                    </div>
-                </div>
-                <div style="min-width:0">
-                    <div class="target-body-l">היעד החודשי</div>
-                    <div class="target-numbers" id="targetNumbers">₪240,418 <span class="total">/ ₪273,203</span></div>
-                    <div class="target-bar"><div class="target-bar-fill" id="targetBarFill" style="width: 88%;"></div></div>
-                    <div class="target-meta">
-                        <span><span class="target-pct-inline" id="targetPctInline">88%</span> הושלם</span>
-                        <span id="targetGap">נותרו ₪33K ליעד</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Compact search card -->
-            <div class="search-card">
-                <div class="search-card-h">חפש לפי</div>
-                <div class="search-input-wrap">
-                    <svg><use href="assets/icons.svg#i-search"></use></svg>
-                    <input type="text" id="mainSearch" placeholder="חפש לקוח לפי שם…" autocomplete="off" value="">
-                    <div class="search-results" id="mainSearchResults" role="listbox"></div>
-                </div>
-                <div class="filter-bar" style="margin-bottom:0; position:static;">
-                    <div class="filter-group" style="border-left:none; padding-right:0">
-                        <button class="filter-pill active" data-chip="customers">לקוחות</button>
-                        <button class="filter-pill" data-chip="products">מוצרים</button>
-                        <button class="filter-pill" data-chip="orders">הזמנות</button>
-                        <button class="filter-pill" data-chip="drafts">טיוטות</button>
-                    </div>
-                </div>
-                <span class="filter-summary" id="searchHint">7 לקוחות בתיק שלך</span>
+        <div class="section-h-mkt" id="promos">מבצעים פעילים</div>
+        <div class="promo-grid" id="promoGrid">
+        <div class="mkt-promo">
+            <span class="mkt-badge">הנחת כמות</span>
+            <div class="mkt-promo-title">הנחת כמות מצרפית על כל ההזמנה</div>
+            <div class="mkt-promo-body">הזמנה מעל ₪3,650 — 8% הנחה רוחבית. הזמנה מעל ₪10,950 — 12% הנחה רוחבית. ההנחה חלה על כל הסל, ללא קשר לקטגוריה.</div>
+            <div class="mkt-promo-meta">
+                <span class="mkt-promo-expires">תוקף: <strong>31.05.2026</strong></span>
+                <span class="mkt-promo-discount">עד 12%</span>
             </div>
         </div>
-
-        <!-- KPI tiles (6) -->
-        <div class="kpi-grid">
-            <div class="kpi-tile">
-                <div class="kpi-tile-icon signal"><svg><use href="assets/icons.svg#i-warn"></use></svg></div>
-                <div class="kpi-tile-l">לקוחות בסיכון</div>
-                <div class="kpi-tile-v" id="kpiRisk">10</div>
-                <div class="kpi-tile-d" id="kpiRiskD">מתוך 7 לקוחות בתיק</div>
-            </div>
-            <div class="kpi-tile">
-                <div class="kpi-tile-icon sage"><svg><use href="assets/icons.svg#i-trend"></use></svg></div>
-                <div class="kpi-tile-l">רווח גולמי</div>
-                <div class="kpi-tile-v" id="kpiProfit">₪93K</div>
-                <div class="kpi-tile-d" id="kpiProfitD">38.8% מרג'ין</div>
-            </div>
-            <div class="kpi-tile">
-                <div class="kpi-tile-icon"><svg><use href="assets/icons.svg#i-coin"></use></svg></div>
-                <div class="kpi-tile-l">הכנסה חודשית</div>
-                <div class="kpi-tile-v" id="kpiRevenue">₪240K</div>
-                <div class="kpi-tile-d" id="kpiRevenueD">ממוצע חודשי · ₪2.9M שנתי</div>
-            </div>
-            <div class="kpi-tile">
-                <div class="kpi-tile-icon peach"><svg><use href="assets/icons.svg#i-package"></use></svg></div>
-                <div class="kpi-tile-l">הזמנות החודש</div>
-                <div class="kpi-tile-v" id="kpiOrders">49</div>
-                <div class="kpi-tile-d" id="kpiOrdersD">583 הזמנות בשנה</div>
-            </div>
-            <div class="kpi-tile">
-                <div class="kpi-tile-icon"><svg><use href="assets/icons.svg#i-target"></use></svg></div>
-                <div class="kpi-tile-l">פוטנציאל סגירות</div>
-                <div class="kpi-tile-v" id="kpiPotential">₪190K</div>
-                <div class="kpi-tile-d" id="kpiPotentialD">5 לקוחות מובילים</div>
-            </div>
-            <div class="kpi-tile">
-                <div class="kpi-tile-icon sage"><svg><use href="assets/icons.svg#i-calendar"></use></svg></div>
-                <div class="kpi-tile-l">פגישות היום</div>
-                <div class="kpi-tile-v" id="kpiMeetings">5</div>
-                <div class="kpi-tile-d" id="kpiMeetingsD">1 בסיכון · 4 פעילים</div>
+    
+        <div class="mkt-promo coral">
+            <span class="mkt-badge">תנאי אשראי</span>
+            <div class="mkt-promo-title">שוטף+90 להזמנה ראשונה</div>
+            <div class="mkt-promo-body">להזמנה הראשונה שלך אצלנו — תנאי אשראי מורחבים של שוטף+90 (במקום שוטף+30 הרגיל). בלי חסם מזומנים בכניסה, בלי ערבויות נוספות.</div>
+            <div class="mkt-promo-meta">
+                <span class="mkt-promo-expires">תוקף: <strong>הזמנה ראשונה</strong></span>
+                <span class="mkt-promo-discount">שוטף+90</span>
             </div>
         </div>
-
-        <!-- Two columns: AI insights + recent activity -->
-        <div class="grid grid-2" style="margin-bottom:12px">
-            <div class="card">
-                <div class="card-h">
-                    <div>
-                        <div class="card-title">פעולות AI · תובנות</div>
-                        <div class="card-sub" id="insightsSub">6 תובנות חכמות · מבוססות נתונים</div>
-                    </div>
-                    <span class="tag coral dot">AI</span>
-                </div>
-                <div class="note-list" id="insightsList"><div class="note"><div class="note-mark "><svg><use href="assets/icons.svg#i-trend"></use></svg></div><div><div class="note-h">נותרו ₪33K לסגירת היעד החודשי</div><div class="note-d">אתה ב-88% · 5 פגישות היום יכולות לסגור את הפער</div></div></div><div class="note"><div class="note-mark "><svg><use href="assets/icons.svg#i-warn"></use></svg></div><div><div class="note-h">איטום ובידוד השקד — סיכון נטישה</div><div class="note-d">₪20,447/חודש על הכף · ציון D&amp;B 45 · צור קשר השבוע</div></div></div><div class="note"><div class="note-mark sage"><svg><use href="assets/icons.svg#i-spark"></use></svg></div><div><div class="note-h">ברגים ופרזול גפן — הלקוח הכי שווה שלך</div><div class="note-d">₪200,479 רווח שנתי · הזדמנות להרחבת סל ומוצרים משלימים</div></div></div><div class="note"><div class="note-mark sage"><svg><use href="assets/icons.svg#i-package"></use></svg></div><div><div class="note-h">צבע אקריליק שחור 5L עומד להיגמר</div><div class="note-d">מק"ט ACR-002 · ₪531,616 מחזור שנתי · הזמן לפני שאוזל</div></div></div><div class="note"><div class="note-mark peach"><svg><use href="assets/icons.svg#i-grid"></use></svg></div><div><div class="note-h">98 מוצרים חדשים בקטלוג</div><div class="note-d">"דבק PU שקוף 310ml" במרג'ין 52% · הצע ל-ברגים ופרזול גפן</div></div></div><div class="note"><div class="note-mark "><svg><use href="assets/icons.svg#i-chart"></use></svg></div><div><div class="note-h">הכי רווחי לדחוף: דיבל פלסטיק 10mm (50יח')</div><div class="note-d">מרג'ין 54% · ברגים וחומרה · תעדף בהצעות ובקטלוג</div></div></div></div>
-            </div>
-            <div class="card">
-                <div class="card-h">
-                    <div>
-                        <div class="card-title">פעילות אחרונה</div>
-                        <div class="card-sub">עדכונים מהיומיים האחרונים</div>
-                    </div>
-                </div>
-                <div class="act-list" id="activityList"><div class="act-item"><div class="act-dot sage"><svg><use href="assets/icons.svg#i-check"></use></svg></div><div><div class="act-name">הזמנה אושרה · ברגים ופרזול גפן</div><div class="act-sub">₪42K החודש</div></div><div class="act-time">לפני שעה</div></div><div class="act-item"><div class="act-dot coral"><svg><use href="assets/icons.svg#i-warn"></use></svg></div><div><div class="act-name">דגל סיכון · חשמל ותאורה התמר</div><div class="act-sub">ירידה בציון D&amp;B — נדרש מעקב</div></div><div class="act-time">לפני 3 שעות</div></div><div class="act-item"><div class="act-dot "><svg><use href="assets/icons.svg#i-cart"></use></svg></div><div><div class="act-name">עגלה נפתחה · חומרי בניין צאלון</div><div class="act-sub">ממתינה לאישור</div></div><div class="act-time">אתמול</div></div><div class="act-item"><div class="act-dot sage"><svg><use href="assets/icons.svg#i-package"></use></svg></div><div><div class="act-name">התראת מלאי · HW-001</div><div class="act-sub">מלאי נמוך</div></div><div class="act-time">אתמול</div></div><div class="act-item"><div class="act-dot "><svg><use href="assets/icons.svg#i-chat"></use></svg></div><div><div class="act-name">הודעה נשלחה · כלי עבודה הדקל</div><div class="act-sub">מבצע שבועי בוואטסאפ</div></div><div class="act-time">לפני יומיים</div></div></div>
+    
+        <div class="mkt-promo peach">
+            <span class="mkt-badge">קו מוצר חדש</span>
+            <div class="mkt-promo-title">ערכת השקה למוצרים חדשים — טייר זהב</div>
+            <div class="mkt-promo-body">הצטרף לטייר זהב והכנס לקטלוג שלך מוצרים חדשים לפני המתחרים: דבק PU שקוף 310ml, גימור פוליאוריטן שקוף 1L, מאט אקריליק לקיר 5L. 52% הנחה על 3 ההזמנות הראשונות מהקו החדש.</div>
+            <div class="mkt-promo-meta">
+                <span class="mkt-promo-expires">תוקף: <strong>30.06.2026</strong></span>
+                <span class="mkt-promo-discount">52%</span>
             </div>
         </div>
-
-        <!-- Today's meetings -->
-        <div class="card">
-            <div class="card-h">
-                <div>
-                    <div class="card-title">פגישות היום</div>
-                    <div class="card-sub" id="meetingsSub">5 פגישות מתוזמנות · 1 לקוחות בסיכון</div>
-                </div>
-                <a href="my-customers.html" class="btn btn-soft btn-sm">כל הלקוחות</a>
+    
+        <div class="mkt-promo sand">
+            <span class="mkt-badge">מק״טים נבחרים</span>
+            <div class="mkt-promo-title">10+1 חינם על מק״טים מובילים</div>
+            <div class="mkt-promo-body">10+1 חינם על המק״טים עם המחזור הגבוה ביותר: מטען מהיר 20W USB-A, צבת קומבינציה 7", נורת LED 9W E14. קטגוריות שזזות מהר — מתאים למלאי שמתחדש כל שבוע בחנות.</div>
+            <div class="mkt-promo-meta">
+                <span class="mkt-promo-expires">תוקף: <strong>15.05.2026</strong></span>
+                <span class="mkt-promo-discount">+1 חינם</span>
             </div>
-            <table class="meet-tbl">
-                <thead>
-                    <tr>
-                        <th>שעה</th>
-                        <th>לקוח</th>
-                        <th>איש קשר</th>
-                        <th>AI Score</th>
-                        <th>פוטנציאל</th>
-                        <th>סטטוס</th>
-                        <th></th>
-                    </tr>
-                </thead>
-                <tbody id="meetingsBody"><tr><td><span class="meet-time">09:00</span></td><td><div class="meet-cn">אלומיניום אלון</div><div class="meet-ci">C53</div></td><td>רכש</td><td><span class="score-chip lo">53</span></td><td class="meet-num">₪18K</td><td><span class="tag coral dot">בסיכון</span></td><td style="text-align:center"><a href="dashboard.html" class="btn btn-soft btn-sm">פתח</a></td></tr><tr><td><span class="meet-time">10:30</span></td><td><div class="meet-cn">אלומיניום ערבה</div><div class="meet-ci">C45</div></td><td>מנהל/ת חנות</td><td><span class="score-chip hi">93</span></td><td class="meet-num">₪33K</td><td><span class="tag sage dot">פעיל</span></td><td style="text-align:center"><a href="dashboard.html" class="btn btn-soft btn-sm">פתח</a></td></tr><tr><td><span class="meet-time">12:00</span></td><td><div class="meet-cn">חומרי בניין צאלון</div><div class="meet-ci">C20</div></td><td>בעלים</td><td><span class="score-chip hi">91</span></td><td class="meet-num">₪42K</td><td><span class="tag sage dot">פעיל</span></td><td style="text-align:center"><a href="dashboard.html" class="btn btn-soft btn-sm">פתח</a></td></tr><tr><td><span class="meet-time">14:00</span></td><td><div class="meet-cn">ברגים ופרזול גפן</div><div class="meet-ci">C77</div></td><td>מחסן</td><td><span class="score-chip hi">91</span></td><td class="meet-num">₪42K</td><td><span class="tag sage dot">פעיל</span></td><td style="text-align:center"><a href="dashboard.html" class="btn btn-soft btn-sm">פתח</a></td></tr><tr><td><span class="meet-time">15:30</span></td><td><div class="meet-cn">ציוד מגן ערבה</div><div class="meet-ci">C85</div></td><td>הנהלת חשבונות</td><td><span class="score-chip hi">86</span></td><td class="meet-num">₪34K</td><td><span class="tag sage dot">פעיל</span></td><td style="text-align:center"><a href="dashboard.html" class="btn btn-soft btn-sm">פתח</a></td></tr></tbody>
-            </table>
+        </div>
+    </div>
+
+        <div class="section-h-mkt">אינסרטים להורדה</div>
+        <div class="inserts-grid">
+            <div class="insert-card">
+                <div class="insert-icon"><svg><use href="assets/icons.svg#i-doc"></use></svg></div>
+                <div class="insert-info">
+                    <div class="insert-title">קטלוג מבצעי מאי 2026</div>
+                    <div class="insert-meta">PDF · להורדה</div>
+                </div>
+                <div class="insert-actions">
+                    <a href="assets/promos/insert-1.pdf" download="" class="insert-btn insert-btn-download">הורדה</a>
+                    <button type="button" class="insert-btn insert-btn-whatsapp" data-insert-name="קטלוג מבצעי מאי 2026" data-insert-url="assets/promos/insert-1.pdf" onclick="sendInsertViaWhatsApp(this)">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.296-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"></path></svg>
+                        וואטסאפ
+                    </button>
+                </div>
+            </div>
+
+            <div class="insert-card">
+                <div class="insert-icon"><svg><use href="assets/icons.svg#i-doc"></use></svg></div>
+                <div class="insert-info">
+                    <div class="insert-title">דף מוצר — בטיחות בעבודה</div>
+                    <div class="insert-meta">PDF · להורדה</div>
+                </div>
+                <div class="insert-actions">
+                    <a href="assets/promos/insert-2.pdf" download="" class="insert-btn insert-btn-download">הורדה</a>
+                    <button type="button" class="insert-btn insert-btn-whatsapp" data-insert-name="דף מוצר — בטיחות בעבודה" data-insert-url="assets/promos/insert-2.pdf" onclick="sendInsertViaWhatsApp(this)">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.296-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"></path></svg>
+                        וואטסאפ
+                    </button>
+                </div>
+            </div>
+
+            <div class="insert-card">
+                <div class="insert-icon"><svg><use href="assets/icons.svg#i-doc"></use></svg></div>
+                <div class="insert-info">
+                    <div class="insert-title">מחירון סיטונאי Q2/2026</div>
+                    <div class="insert-meta">PDF · להורדה</div>
+                </div>
+                <div class="insert-actions">
+                    <a href="assets/promos/insert-3.pdf" download="" class="insert-btn insert-btn-download">הורדה</a>
+                    <button type="button" class="insert-btn insert-btn-whatsapp" data-insert-name="מחירון סיטונאי Q2/2026" data-insert-url="assets/promos/insert-3.pdf" onclick="sendInsertViaWhatsApp(this)">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.296-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"></path></svg>
+                        וואטסאפ
+                    </button>
+                </div>
+            </div>
         </div>
 
     </main>

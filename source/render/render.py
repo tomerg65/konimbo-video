@@ -1,9 +1,14 @@
-import asyncio, sys, subprocess, os, json
+import asyncio, sys, subprocess, os, json, time, pathlib
+SCENES = pathlib.Path(__file__).resolve().parent.parent / 'scenes'
+PORT = 8765
 from playwright.async_api import async_playwright
 
-# usage: render.py stills <tl> t1,t2,...  outdir
-#        render.py video <tl> out.mp4 [fps]
+# שימוש:
+#   python3 render.py video long  out.mp4    רינדור גרסת 2 הדקות (בלי אודיו)
+#   python3 render.py video short out.mp4    רינדור גרסת 60 השניות
+#   python3 render.py stills long 5,30,60 out_dir   צילום פריימים בודדים לבדיקה
 async def main():
+    srv = subprocess.Popen([sys.executable, '-m', 'http.server', str(PORT), '--bind', '127.0.0.1'], cwd=SCENES, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL); time.sleep(1)
     mode, tl = sys.argv[1], sys.argv[2]
     async with async_playwright() as p:
         b = await p.chromium.launch(args=['--disable-background-networking','--disable-component-update'], executable_path='/opt/pw-browsers/chromium-1194/chrome-linux/chrome' if os.path.exists('/opt/pw-browsers/chromium-1194/chrome-linux/chrome') else None)
@@ -35,4 +40,5 @@ async def main():
             ff.stdin.close(); ff.wait()
             print('done', out, total)
         await b.close()
+    srv.terminate()
 asyncio.run(main())
